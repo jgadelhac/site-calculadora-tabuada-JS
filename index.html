@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Digite os número para ser gerada a tabuada: </h2>
+    <form id="formulario">
+        <div class="inputs">
+            <label for="numero">Tabuada do:</label>
+            <input type="number" id="numero">
+        </div>
+        <div class="inputs">
+            <label for="qtdVezes">Fazer até:</label>
+            <input type="number" id="qtdVezes">
+        </div>
+        <input type="submit" value="Calcular">
+    </form>
+    <div id="tabela">
+        <h2 id="tituloTabela">Tabuada do número: <span></span></h2>
+        <div id="resultado">
+            <p>Informe um número para calcular uma tabuada...</p>
+        </div>
+    </div>
+</body>
+</html>
